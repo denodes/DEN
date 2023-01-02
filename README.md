@@ -168,7 +168,7 @@ startmasternode alias false MN1
 
 
 ## Installing Node Only ##
-nstall a node for on Ubuntu Server 18.04 with the following tutorial.
+Install a node for on Ubuntu Server 18.04 with the following tutorial.
 
 Update your Ubuntu server with the following command:
 sudo apt-get update && sudo apt-get upgrade -y
