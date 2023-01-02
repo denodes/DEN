@@ -1,0 +1,37 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/dennodes_bg.qm</file>
+        <file alias="ca">locale/dennodes_ca.qm</file>
+        <file alias="cs">locale/dennodes_cs.qm</file>
+        <file alias="da">locale/dennodes_da.qm</file>
+        <file alias="de">locale/dennodes_de.qm</file>
+        <file alias="en">locale/dennodes_en.qm</file>
+        <file alias="en_GB">locale/dennodes_en_GB.qm</file>
+        <file alias="en_US">locale/dennodes_en_US.qm</file>
+        <file alias="eo">locale/dennodes_eo.qm</file>
+        <file alias="es">locale/dennodes_es.qm</file>
+        <file alias="es_ES">locale/dennodes_es_ES.qm</file>
+        <file alias="fi">locale/dennodes_fi.qm</file>
+        <file alias="fr_FR">locale/dennodes_fr_FR.qm</file>
+        <file alias="hi_IN">locale/dennodes_hi_IN.qm</file>
+        <file alias="hr">locale/dennodes_hr.qm</file>
+        <file alias="hr_HR">locale/dennodes_hr_HR.qm</file>
+        <file alias="it">locale/dennodes_it.qm</file>
+        <file alias="ja">locale/dennodes_ja.qm</file>
+        <file alias="ko_KR">locale/dennodes_ko_KR.qm</file>
+        <file alias="lt_LT">locale/dennodes_lt_LT.qm</file>
+        <file alias="nl">locale/dennodes_nl.qm</file>
+        <file alias="pl">locale/dennodes_pl.qm</file>
+        <file alias="pt">locale/dennodes_pt.qm</file>
+        <file alias="pt_BR">locale/dennodes_pt_BR.qm</file>
+        <file alias="ro_RO">locale/dennodes_ro_RO.qm</file>
+        <file alias="ru">locale/dennodes_ru.qm</file>
+        <file alias="sk">locale/dennodes_sk.qm</file>
+        <file alias="sv">locale/dennodes_sv.qm</file>
+        <file alias="tr">locale/dennodes_tr.qm</file>
+        <file alias="uk">locale/dennodes_uk.qm</file>
+        <file alias="vi">locale/dennodes_vi.qm</file>
+        <file alias="zh_CN">locale/dennodes_zh_CN.qm</file>
+        <file alias="zh_TW">locale/dennodes_zh_TW.qm</file>
+    </qresource>
+</RCC>
