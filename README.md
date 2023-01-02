@@ -2,7 +2,7 @@
 DEN NODES BLOCKCHAIN
 
 
-##Mine for blocks with your Windows wallet and the following instructions.
+## Mine for blocks with your Windows wallet and the following instructions.
 
 Click here to download the file dennodes-qt-windows.zip.
 
@@ -42,7 +42,7 @@ setgenerate true -1
 
 
 
-## Install Master Node 
+## Install Master Node ##
 
 Install a masternode on Ubuntu Server 18.04 with the following tutorial.
 
@@ -167,7 +167,7 @@ Type the following RPC command, to start your masternode:
 startmasternode alias false MN1
 
 
-##Installing Node Only 
+## Installing Node Only ##
 nstall a node for on Ubuntu Server 18.04 with the following tutorial.
 
 Update your Ubuntu server with the following command:
