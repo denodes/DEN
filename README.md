@@ -17,6 +17,7 @@ Enter the following text behind "Open": notepad
 Press on the button "OK".
 
 Paste the following into notepad.
+
 addnode=den.denodes.com
 addnode=den1.denodes.com
 
@@ -106,39 +107,48 @@ Close your wallet.
 Open putty and connect using SSH with your Ubuntu 18.04 server.
 
 Update your Ubuntu server with the following command:
+
 sudo apt-get update && sudo apt-get upgrade -y
 
 Install the required dependencies with the following command:
+
 sudo apt-get install build-essential libtool autotools-dev automake pkg-config libssl-dev libevent-dev bsdmainutils python3 libboost-system-dev libboost-filesystem-dev libboost-chrono-dev libboost-test-dev libboost-thread-dev libboost-all-dev libboost-program-options-dev libminiupnpc-dev libzmq3-dev libprotobuf-dev protobuf-compiler unzip software-properties-common cmake -y
 
 Install the repository ppa:bitcoin/bitcoin with the following command:
+
 sudo add-apt-repository ppa:bitcoin/bitcoin
 
 Confirm the installation of the repository by pressing on the enter key. enter
 
 Install Berkeley DB with the following command:
+
 sudo apt-get update && sudo apt-get install libdb4.8-dev libdb4.8++-dev -y
 
 Download the Linux daemon for your wallet with the following command:
 
 Extract the tar file with the following command:
+
 tar -xzvf dennodes-daemon-linux.tar.gz
 
 Download the Linux tools for your wallet 
 
 Extract the tar file with the following command:
+
 tar -xzvf dennodes-qt-linux.tar.gz
 
 Type the following command to install the daemon and tools for your wallet:
+
 sudo mv dennodesd dennodes-cli dennodes-tx /usr/bin/
 
 Create the data directory for your coin with the following command:
+
 mkdir $HOME/.dennodes
 
 Open nano.
 nano $HOME/.dennodes/dennodes.conf -t
 
 Paste the following into nano.
+
 rpcuser=rpc_dennodes
 rpcpassword=dR2oBQ3K1zYMZQtJFZeAerhWxaJ5Lqeq9J2
 rpcallowip=127.0.0.1
